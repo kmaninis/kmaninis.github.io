@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116539120-6"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-116539120-6');
+    </script>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Attentive Single-Tasking of Multiple Tasks</title>
+	<meta name="description" content="ASTMT">
+	<meta name="author" content="ASTMT">
+	
+    <!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+
+   <!--Import materialize.css-->
+  	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!-- CSS
+	================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="css/menu.css">
+	<script src="js/jquery1111.min.js" type="text/javascript"></script>
+	<script src="js/script.js"></script>
+	
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+
+	<link rel="shortcut icon" href="images/cvl_icon.png">
+	
+		<!-- Add smooth transition -->
+	<script>
+	$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("a").on('click', function(event) {
+
+	    // Make sure this.hash has a value before overriding default behavior
+	    if (this.hash !== "") {
+	      // Prevent default anchor click behavior
+	      event.preventDefault();
+
+	      // Store hash
+	      var hash = this.hash;
+
+	      // Using jQuery's animate() method to add smooth page scroll
+	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top
+	      }, 800, function(){
+	   
+	        // Add hash (#) to URL when done scrolling (default click behavior)
+	        window.location.hash = hash;
+	      });
+	    } // End if
+	  });
+	});
+	</script>
+
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/Items/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+<style type="text/css">
+    /*********************************
+    The list of publication items
+    *********************************/
+    /* The list of items */
+    .biblist { }
+
+    /* The item */
+    .biblist li { }
+
+    /* You can define custom styles for plstyle field here. */
+
+
+    /*************************************
+     The box that contain BibTeX code
+     *************************************/
+    div.noshow { display: none; }
+    div.bibtex {
+        margin-right: 0%;
+        margin-top: 1.2em;
+        margin-bottom: 1.3em;
+        border: 1px solid silver;
+        padding: 0.3em 0.5em;
+        background: #ffffee;
+    }
+    div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }
+
+
+    .content-subhead{color: black}
+
+    .btn-large{
+    	text-transform: none;
+    	background-color: #AAAAAA;
+    }
+
+    .round{
+	  width:100%;
+	  padding-top:100%;
+	  overflow:hidden;
+	  position:relative;
+	  border-radius:50%;
+	}
+	img.roundimg{
+	  position:absolute;
+	  top:50%;
+	  left:50%;
+	  min-width:100%;
+	  height:100%;
+	  transform:translate(-50%,-50%);
+	  transition: 1s ease;
+	}
+</style>
+
+<script type="text/javascript">
+ <!--
+ // Toggle Display of BibTeX
+ function toggleBibtex(articleid) {
+     var bib = document.getElementById('bib_'+articleid);
+     if (bib) {
+         if(bib.className.indexOf('bibtex') != -1) {
+             bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+         }
+     } else {
+         return;
+     }
+ }
+-->
+</script>
+</head>
+
+<body>
+<a href="#downloads"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 10000;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="fork me on github" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+<a href="#downloads">
+		<img style="position: fixed; top: 0; right: 0; border: 0; z-index: 11;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" alt="Fork me on GitHub" />
+</a>
+
+<div class="wrap-body">
+
+	<!--////////////////////////////////////Header-->
+	<header class="zerogrid">
+		<div id='cssmenu' class="align-center">
+			<ul>
+			   <li class="active"><a href='index.html'><span>Home</span></a></li>
+			   <li><a href='#publication'><span>Publication</span></a></li>
+			   <li><a href='#team'><span>Team</span></a></li>
+			   <li><a href='#results'><span>Results</span></a></li>
+   			   <li><a href='#downloads'><span>Downloads</span></a></li>
+			   <li class='last'  style="margin-top:-7px;"><a href="https://twitter.com/intent/tweet?text=Attentive Single-Tasking of Multiple Tasks!%0AMulti-task learning for dense prediction that surpasses the single-tasking baselines. Code is available at https://github.com/facebookresearch/astmt."><i class="fa fa-twitter fa-2x"></i></a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<!--////////////////////////////////////Container-->
+<section id="container">
+	<div class="wrap-container">
+		<!-----------------content-box-2-------------------->
+		<section class="content-box box-2">
+			<div class="zerogrid">
+				<div class="row wrap-box"><!--Start Box-->
+					<div class="header">
+						<hr class="line-2">
+						<h1>Attentive Single-tasking</br> 
+							of Multiple Tasks</h1>
+						<span style="line-height: 1.2">Multi-task learning with modulation and adversarial training</span>
+					</div>	
+					<div class="row" style="width:90%" >
+						<div class="col-1-2 t-center">
+							<img src="images/teaser/teaser_v1_2_uneditable.png" style="width:100%"/>
+						</div>
+						<div class="col-1-2 t-center">
+							<img src="images/teaser/mtl_spat_pca_im_3_0.png" style="width:65%"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</section>
+
+
+
+
+
+<section class="content-box box-3">
+	<div class="zerogrid">
+		<div class="row wrap-box" style="margin-left:5%;margin-right:5%;" id="publication"><!--Start Box-->
+				<article>
+					<div class="row t-center" style="line-height: 1.5">
+					<hr class="line-2">
+				<h2 style="margin-bottom:20px">Publication</h2>
+						<a href="https://arxiv.org/pdf/1904.08918" target="_blank">
+						<div class="paper-col"><img class="paper-col-im" src="images/paper/paper01.png"/></div>
+						<div class="paper-col"><img class="paper-col-im" src="images/paper/paper02.png"/></div>
+						<div class="paper-col"><img class="paper-col-im" src="images/paper/paper03.png"/></div>
+						<div class="paper-col"><img class="paper-col-im" src="images/paper/paper04.png"/></div>
+						<div class="paper-col"><img class="paper-col-im" src="images/paper/paper05.png"/></div>
+						<div class="paper-col"><img class="paper-col-im" src="images/paper/paper06.png"/></div>
+						<div class="paper-col"><img class="paper-col-im" src="images/paper/paper07.png"/></div>
+						<div class="paper-col"><img class="paper-col-im" src="images/paper/paper08.png"/></div>				
+					</div>
+					<div class="row t-center" style="line-height: 1.5; margin-top:15px">
+<a href="http://www.vision.ee.ethz.ch/~kmaninis" target="_blank">K.K. Maninis</a>, <a href="https://www.linkedin.com/in/ilijaradosavovic/" target="_blank">I. Radosavovic</a>, and <a href="http://www0.cs.ucl.ac.uk/staff/I.Kokkinos/" target="_blank">I. Kokkinos</a>
+						<br><b>Attentive Single-tasking of Multiple Tasks</b>,<br>
+						<i>Computer Vision and Pattern Recognition (CVPR)</i>,
+						2019.<br>
+						<a href="javascript:toggleBibtex('MRK19')">[BibTeX]</a>
+						<a href="https://arxiv.org/abs/1904.08918" target="_blank">[arXiv]</a>
+					</div>
+					<div id="bib_MRK19" class="bibtex noshow">
+<pre>
+@InProceedings{MRK19,
+  Author    = {Kevis-Kokitsi Maninis and Ilija Radosavovic and Iasonas Kokkinos},
+  Title     = {Attentive Single-Tasking of Multiple Tasks},
+  Booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  Year      = {2019}
+}
+</pre>
+					</div>						
+				</article>
+		</div>
+	</div>			
+</section>
+
+<section class="content-box box-3" id="team">
+	<div class="zerogrid">
+		<div class="row wrap-box t-center" style="margin-left:20%;margin-right:20%;"><!--Start Box-->
+			<hr class="line-2">
+				<h2 style="margin-bottom:20px">Team</h2>
+						<article>
+							<div class="row">
+								<div class="col-1-3 t-center">
+									<div class="wrap-col">
+										<a href="http://www.vision.ee.ethz.ch/~kmaninis/" target="_blank"><img src="images/authors/Kevis.png" /></a>
+										<a href="http://www.vision.ee.ethz.ch/~kmaninis/" target="_blank"><h3 style="margin-top: 20px">Kevis-Kokitsi<br>Maninis</h3></a>
+									</div>
+								</div>
+								<div class="col-1-3 t-center">
+									<div class="wrap-col">
+										<a href="https://www.linkedin.com/in/ilijaradosavovic/" target="_blank"><img src="images/authors/Ilija.png" /></a>
+										<a href="https://www.linkedin.com/in/ilijaradosavovic/" target="_blank"><h3 style="margin-top: 20px;">Ilija<br>Radosavovic</h3></a>
+									</div>
+								</div>							
+								<div class="col-1-3 t-center">
+									<div class="wrap-col">
+										<a href="http://www0.cs.ucl.ac.uk/staff/I.Kokkinos/" target="_blank"><img src="images/authors/Iasonas.png" /></a>
+										<a href="http://www0.cs.ucl.ac.uk/staff/I.Kokkinos/" target="_blank"><h3 style="margin-top: 20px;">Iasonas<br>Kokkinos</h3></a>
+									</div>
+								</div>
+							</div>
+					
+
+						</article>
+		</div>
+	</div>
+</section>
+
+
+<section class="content-box box-3" id="results">
+	<div class="zerogrid">
+		<div class="row wrap-box t-center" style="margin-left:10%;margin-right:10%;"><!--Start Box-->
+			<hr class="line-2">
+				<h2 style="margin-bottom:20px">Results</h2>
+				<article>
+					The table shows the performance of our method in various operating points, as a function of the number of parameters (left), and the computation resources required (right). Comparison to single-tasking baseline (cross) and multi-tasking baseline (circle) with different backbone depth.<br>
+					<div class="row" style="width:95%" >
+						<div class="col-1-2 t-center">
+							<img src="images/quantitative/params.png" style="width:100%"/>
+						</div>
+						<div class="col-1-2 t-center">
+							<img src="images/quantitative/flops.png" style="width:100%"/>
+						</div>
+					</div>
+
+					Qualitative Results of ASTMT<br><br>
+					<div class="row">
+						<div class="col-1-6 t-center">
+							<img src="images/qualitative/2009_000461.jpg" style="height: 210px"/>
+						</div>
+						<div class="col-1-6 t-center">
+							<img src="images/qualitative/2009_000461_edge.png" style="height: 210px"/>
+						</div>
+						<div class="col-1-6 t-center">
+							<img src="images/qualitative/2009_000461_semseg.png" style="height: 210px"/>
+						</div>
+						<div class="offsetonlyonmobile"></div>
+						<div class="col-1-6 t-center">
+							<img src="images/qualitative/2009_000461_human_parts.png" style="height: 210px"/>
+						</div>
+						<div class="col-1-6 t-center">
+							<img src="images/qualitative/2009_000461_normals.png" style="height: 210px"/>
+						</div>
+						<div class="col-1-6 t-center">
+							<img src="images/qualitative/2009_000461_sal.png" style="height: 210px"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-1-5 t-center">
+							<img src="images/qualitative/01368.jpg" style="height: 180px"/>
+						</div>
+						<div class="col-1-5 t-center">
+							<img src="images/qualitative/01368_edge.png" style="height: 180px"/>
+						</div>
+						<div class="offsetonlyonmobile"></div>
+						<div class="col-1-5 t-center">
+							<img src="images/qualitative/01368_semseg.png" style="height: 180px"/>
+						</div>
+						<div class="col-1-5 t-center">
+							<img src="images/qualitative/01368_normals.png" style="height: 180px"/>
+						</div>
+						<div class="col-1-5 t-center">
+							<img src="images/qualitative/01368_depth.png" style="height: 180px"/>
+						</div>
+					</div>
+				</article>
+		</div>
+	</div>
+</section>
+
+
+<section class="content-box box-3" id="downloads">
+	<div class="zerogrid">
+		<div class="row wrap-box t-center" style="margin-left:10%;margin-right:10%;margin-bottom:100px;"><!--Start Box-->
+			<hr class="line-2">
+				<h2 style="margin-bottom:20px">Downloads</h2>
+				<article>
+					<div class="col-1-1 t-center">
+						<a class="waves-effect waves-light btn-large" style="width:95%" target="_blank" href="https://github.com/facebookresearch/astmt">Pytorch Code and models</a>
+					</div>
+				</article>
+		</div>
+	</div>
+</section>
+
+
+
+</div>
+</body></html>
