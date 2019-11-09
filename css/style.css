@@ -11,6 +11,7 @@ body {
    color: #2b3e51;
    background-color: #ffffff;
 }
+
 body:after {
     content : "";
     display: block;
@@ -108,7 +109,7 @@ table tr td {
 	max-width: 1000px;
 	margin: auto;
   }
-#icon {
+.icon {
 	width:150px;
 	height:110px;
   }
@@ -129,7 +130,7 @@ table tr td {
 #content {
 	font-size: 1.2vw;
   }
-#icon {
+.icon {
 	width:100px;
 	height:80px;
   }
@@ -152,7 +153,7 @@ table tr td {
 #content {
 	font-size: 10px;
   }
-#icon {
+.icon {
 	width:50px;
 	height:40px;
   }
