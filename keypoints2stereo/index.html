@@ -62,20 +62,21 @@
      }
  }
 </script>
- 
+
+
 <body>
 <div id="layout">
 	<div id="menu">
 		<div class="pure-menu"><br>
 			<div style="margin-left:15%">
-				<a href="http://www.vision.ee.ethz.ch"><img src="../images/cvl.png"/></a>
+				<a href="http://www.vision.ee.ethz.ch"><img src="../images/cvl.png" alt="CVL logo"/></a>
 			</div><br>
 			<ul class="pure-menu-list">
-				<li><a href="http://www.vision.ee.ethz.ch/~kmaninis/#home" class="pure-menu-link">Home</a></li>
+				<li><a href="http://kmaninis.com/#home" class="pure-menu-link">Home</a></li>
 				<li><a href="#news" class="pure-menu-link">News</a></li>
-				<li><a href="http://www.vision.ee.ethz.ch/~kmaninis/#publications" class="pure-menu-link">Publications</a></li>
-				<li><a href="http://www.vision.ee.ethz.ch/~kmaninis/#miscellaneous" class="pure-menu-link">Miscellaneous</a></li>
-				<li><a href="http://www.vision.ee.ethz.ch/~kmaninis/#contact" class="pure-menu-link">Contact</a></li>
+				<li><a href="http://kmaninis.com/#publications" class="pure-menu-link">Publications</a></li>
+				<li><a href="http://kmaninis.com/#miscellaneous" class="pure-menu-link">Miscellaneous</a></li>
+				<li><a href="http://kmaninis.com/#contact" class="pure-menu-link">Contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -101,8 +102,8 @@
 			</div>
 			<div class="pure-u-5-6" style="width:75%;">
 			<p style="margin-left:0.6cm;line-height: 1.4em;margin-top:1em;">
-			<a href="http://www.vision.ee.ethz.ch/~probstt" target="_blank"/>T. Probst*</a>,
-				<a href="http://www.vision.ee.ethz.ch/~kmaninis" target="_blank"/>K.K. Maninis*</a>,
+				<a href="http://www.vision.ee.ethz.ch/~probstt" target="_blank">T. Probst*</a>,
+				<a href="http://kmaninis.com/" target="_blank"/>K.K. Maninis*</a>,
 				<a href="https://www.linkedin.com/in/ajad-chhatkuli-69176044/" target="_blank">A. Chhatkuli</a>,
 				<a href="https://www.kuleuven.be/wieiswie/en/person/00115063" target="_blank">M. Ourak</a>,
 				<a href="https://people.mech.kuleuven.be/~u0035122/" target="_blank">E. Vander Poorten</a>, and
@@ -113,8 +114,8 @@
 				<i>Robotics and Automation Letters (RA-L), 2018.</i><br>
 				[<a href="javascript:toggleBibtex('Pro+18')">BibTex</a>]&nbsp;&nbsp;
 				[<a href="https://arxiv.org/abs/1709.05665" target="_blank">arXiv</a>]&nbsp;&nbsp;
-				[<a href="https://arxiv.org/pdf/1709.05665.pdf" target="_blank">pdf</a>]&nbsp;&nbsp;
-				[<a href="https://data.vision.ee.ethz.ch/kmaninis/share/K2S/Tool_db.zip" target="_blank">data (3.5GB)</a>] 
+				[<a href="https://arxiv.org/pdf/1709.05665.pdf" target="_blank">pdf</a>]&nbsp;
+				[<a href="https://data.vision.ee.ethz.ch/kmaninis/share/K2S/Tool_db.zip" target="_blank">data (3.5GB)</a>]
                 
                 
 			</p>
@@ -139,9 +140,25 @@
 		
 		<h2 class="content-subhead" style="margin-top:33px;margin-bottom:0px">Abstract</h2>
         <p align="justify" style="font-size:90%;margin-top:10px">
-            Computer vision and robotics are being increasingly applied in medical interventions. Especially in interventions where extreme precision is required they could make a difference. One such application is robot-assisted retinal microsurgery. In recent works, such interventions are conducted under a stereo-microscope, and with a robot-controlled surgical tool. The complementarity of computer vision and robotics has however not yet been fully exploited. In order to improve the robot control we are interested in 3D reconstruction of the anatomy and in automatic tool localization using a stereo microscope. In this paper, we solve this problem for the first time using a single pipeline, starting from uncalibrated cameras to reach metric 3D reconstruction and registration, in retinal microsurgery. The key ingredients of our method are: (a) surgical tool landmark detection, and (b) 3D reconstruction with the stereo microscope, using the detected landmarks. To address the former, we propose a novel deep learning method that detects and recognizes keypoints in high definition images at higher than real-time speed. We use the detected 2D keypoints along with their corresponding 3D coordinates obtained from the robot sensors to calibrate the stereo microscope using an affine projection model. We design an online 3D reconstruction pipeline that makes use of smoothness constraints and performs robot-to-camera registration. The entire pipeline is extensively validated on open-sky porcine eye sequences. Quantitative and qualitative results are presented for all steps.
+            Computer vision and robotics are being increasingly applied in medical interventions.
+			Especially in interventions where extreme precision is required they could make a difference.
+			One such application is robot-assisted retinal microsurgery. In recent works, such interventions are
+			conducted under a stereo-microscope, and with a robot-controlled surgical tool. The complementarity of
+			computer vision and robotics has however not yet been fully exploited. In order to improve the robot
+			control we are interested in 3D reconstruction of the anatomy and in automatic tool localization using
+			a stereo microscope. In this paper, we solve this problem for the first time using a single pipeline,
+			starting from uncalibrated cameras to reach metric 3D reconstruction and registration, in retinal
+			microsurgery. The key ingredients of our method are: (a) surgical tool landmark detection, and (b) 3D
+			reconstruction with the stereo microscope, using the detected landmarks. To address the former, we propose
+			a novel deep learning method that detects and recognizes keypoints in high definition images at higher than
+			real-time speed. We use the detected 2D keypoints along with their corresponding 3D coordinates obtained
+			from the robot sensors to calibrate the stereo microscope using an affine projection model. We design an
+			online 3D reconstruction pipeline that makes use of smoothness constraints and performs robot-to-camera
+			registration. The entire pipeline is extensively validated on open-sky porcine eye sequences. Quantitative
+			and qualitative results are presented for all steps.
         </p>
-	
+
+	</div> <!-- content -->
 </div> <!-- layout -->
 </body>
 </html>
