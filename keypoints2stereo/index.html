@@ -5,8 +5,8 @@
 	<link rel="shortcut icon" href="ims/icon.png">
 	<link href='https://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/side-menu.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/side-menu.css">
 	<title>Automatic Tool Landmark Detection for Stereo Vision in Robot-Assisted Retinal Surgery</title>
 </head>
 
@@ -54,11 +54,9 @@
  function toggleBibtex(articleid) {
      var bib = document.getElementById('bib_'+articleid);
      if (bib) {
-         if(bib.className.indexOf('bibtex') != -1) {
-             bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+         if(bib.className.indexOf('bibtex') !== -1) {
+             bib.className.indexOf('noshow') === -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
          }
-     } else {
-         return;
      }
  }
 </script>
@@ -103,7 +101,7 @@
 			<div class="pure-u-5-6" style="width:75%;">
 			<p style="margin-left:0.6cm;line-height: 1.4em;margin-top:1em;">
 				<a href="https://www.vision.ee.ethz.ch/~probstt" target="_blank">T. Probst*</a>,
-				<a href="https://kmaninis.com/" target="_blank"/>K.K. Maninis*</a>,
+				<a href="https://kmaninis.com/" target="_blank">K.K. Maninis*</a>,
 				<a href="https://www.linkedin.com/in/ajad-chhatkuli-69176044/" target="_blank">A. Chhatkuli</a>,
 				<a href="https://www.kuleuven.be/wieiswie/en/person/00115063" target="_blank">M. Ourak</a>,
 				<a href="https://people.mech.kuleuven.be/~u0035122/" target="_blank">E. Vander Poorten</a>, and
