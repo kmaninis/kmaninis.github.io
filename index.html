@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116539120-2"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116539120-4"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
@@ -15,7 +15,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="images/icon.png">
 	<link href='https://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+	<link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/side-menu.css">
     <link rel="stylesheet" href="external/academicons-1.7.0/css/academicons.css"/>
@@ -60,11 +60,9 @@
  function toggleBibtex(articleid) {
 	  var bib = document.getElementById('bib_'+articleid);
 	  if (bib) {
-		  if(bib.className.indexOf('bibtex') != -1) {
-			  bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+		  if(bib.className.indexOf('bibtex') !== -1) {
+			  bib.className.indexOf('noshow') === -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
 		  }
-	  } else {
-		  return;
 	  }
  }
 -->
@@ -166,7 +164,7 @@
 
         <p>
         <strong>Feb 2019:</strong>
-			<a href="http://kmaninis.com/astmt/" target="_blank">
+			<a href="https://kmaninis.com/astmt/" target="_blank">
 				Our paper on multi-task learning
 			</a>
 			was accepted in CVPR 2019. Work done at FAIR with Ilija Radosavovic and Iasonas Kokkinos.
@@ -247,7 +245,7 @@
 			 [<a href="javascript:toggleBibtex('Pro+18')">BibTex</a>] &nbsp;&nbsp;
 			 [<a href="https://arxiv.org/abs/1709.05665">arXiv</a>] &nbsp;&nbsp;
 			 [<a href="https://arxiv.org/pdf/1709.05665">pdf</a>] &nbsp;&nbsp;
-			 [<a href="http://kmaninis.com/keypoints2stereo/" target="_blank">Project Page</a>]
+			 [<a href="https://kmaninis.com/keypoints2stereo/" target="_blank">Project Page</a>]
 			</p>
 		   </td>
 		  </tr>
@@ -264,9 +262,9 @@
 															alt="Keypoints to Stereo icon"></td>
 		   <td>
 			 <p> K.K. Maninis,
-				 <a href="http://jponttuset.cat/" target="_blank">J. Pont-Tuset</a>,
+				 <a href="https://jponttuset.cat/" target="_blank">J. Pont-Tuset</a>,
 				 <a href="https://biomedicalcomputervision.uniandes.edu.co/" target="_blank">P. Arbeláez</a>, and
-				 <a href="https://wwwpeople.ee.ethz.ch/en/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>
+				 <a href="https://people.ee.ethz.ch/en/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>
 				 <br>
 			 	 <b>Convolutional Oriented Boundaries: From Image Segmentation to High-Level Tasks</b>
 				 <br>
@@ -274,7 +272,7 @@
 			  [<a href="javascript:toggleBibtex('Man+18a')">BibTex</a>] &nbsp;&nbsp;
 			  [<a href="https://arxiv.org/pdf/1701.04658">pdf</a>] &nbsp;&nbsp;
 			  [<a href="https://github.com/kmaninis/COB/" target="_blank">Code</a>] &nbsp;&nbsp;
-			  [<a href="http://people.ee.ethz.ch/~cvlsegmentation/cob/" target="_blank">Project Page</a>]
+			  [<a href="https://people.ee.ethz.ch/~cvlsegmentation/cob/" target="_blank">Project Page</a>]
 			 </p>
 		   </td>
 		  </table>
@@ -312,7 +310,7 @@
 		   <td>
 			 <p> K.K. Maninis*,
 				 <a href="https://sergicaelles.com" target="_blank">S. Caelles</a>*,
-				 <a href="http://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a>, and
+				 <a href="https://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a>, and
 				 <a href="https://www.vision.ee.ethz.ch/en/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>
 				 <br>
 			 <b>Deep Extreme Cut: From Extreme Points to Object Segmentation</b><br>
@@ -320,7 +318,7 @@
 			  [<a href="javascript:toggleBibtex('Man+18')">BibTex</a>] &nbsp;&nbsp;
 			  [<a href="https://arxiv.org/abs/1711.09081" target="_blank">arXiv</a>] &nbsp;&nbsp;
 			  [<a href="https://arxiv.org/pdf/1711.09081" target="_blank">pdf</a>] &nbsp;&nbsp;
-			  [<a href="http://people.ee.ethz.ch/~cvlsegmentation/dextr/" target="_blank">Project, Code]</a>
+			  [<a href="https://people.ee.ethz.ch/~cvlsegmentation/dextr/" target="_blank">Project, Code]</a>
 			 </p>
 		   </td>
 		  </table>
@@ -333,7 +331,7 @@
 		   <td>
 			   <p>
 				   <a href="http://sunai.uoc.edu/index.php/2016/10/13/dr-carles-ventura/" target="_blank">C. Ventura</a>,
-				   <a href="http://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a>,
+				   <a href="https://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a>,
 				   <a href="https://sergicaelles.com" target="_blank">S. Caelles</a>,
 				   K.K. Maninis, and
 				   <a href="https://www.vision.ee.ethz.ch/en/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>
@@ -355,7 +353,7 @@
 		   <td>
 			 <p> <a href="https://sergicaelles.com" target="_blank">S. Caelles</a>*,
 				 K.K. Maninis*,
-				 <a href="http://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a>,
+				 <a href="https://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a>,
 				 <a href="https://lealtaixe.github.io/" target="_blank">L. Leal-Taixé</a>,
 				 <a href="http://vision.in.tum.de/members/cremers" target="_blank">D. Cremers</a>, and
 				 <a href="https://wwwpeople.ee.ethz.ch/en/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>
@@ -365,7 +363,7 @@
 			  [<a href="javascript:toggleBibtex('Cae+16')">BibTex</a>] &nbsp;&nbsp;
 			  [<a href="https://arxiv.org/abs/1611.05198">arXiv</a>] &nbsp;&nbsp;
 			  [<a href="https://arxiv.org/pdf/1611.05198">pdf</a>] &nbsp;&nbsp;
-			  [<a href="http://people.ee.ethz.ch/~cvlsegmentation/osvos/" target="_blank">Project, Code</a>]
+			  [<a href="https://people.ee.ethz.ch/~cvlsegmentation/osvos/" target="_blank">Project, Code</a>]
 			 </p>
 		   </td>
 		  </table>
@@ -377,7 +375,7 @@
 															alt="COB ECCV icon"></td>
 		   <td>
 			 <p> K.K. Maninis,
-				 <a href="http://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a>,
+				 <a href="https://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a>,
 				 <a href="https://biomedicalcomputervision.uniandes.edu.co/" target="_blank">P. Arbeláez</a>, and
 				 <a href="https://ww.people.ee.ethz.ch/en/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>
 				 <br>
@@ -385,9 +383,9 @@
 			 	European Conference on Computer Vision <i>(ECCV)</i>, 2016
 			  <br>
 			  [<a href="javascript:toggleBibtex('Man+16a')">BibTex</a>] &nbsp;&nbsp;
-			  [<a href="http://people.ee.ethz.ch/~cvlsegmentation/cob/data/COB_ECCV16.pdf">pdf</a>] &nbsp;&nbsp;
+			  [<a href="https://people.ee.ethz.ch/~cvlsegmentation/cob/data/COB_ECCV16.pdf">pdf</a>] &nbsp;&nbsp;
 			  [<a href="https://github.com/kmaninis/COB/">Code</a>] &nbsp;&nbsp;
-			  [<a href="http://people.ee.ethz.ch/~cvlsegmentation/cob/" target="_blank">Project Page</a>] &nbsp;&nbsp;
+			  [<a href="https://people.ee.ethz.ch/~cvlsegmentation/cob/" target="_blank">Project Page</a>] &nbsp;&nbsp;
 			  [<a href="http://www.rsipvision.com/ComputerVisionNews-2016November/#4" target="_blank">Computer Vision News</a>]
 			 </p>
 		   </td>
@@ -399,7 +397,7 @@
 		  <td class="table_image_spec" align="center" ><img id="icon" src="images/driu_thumb.png" alt="DRIU icon"></td>
 		   <td>
 			 <p> K.K. Maninis,
-				 <a href="http://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a>,
+				 <a href="https://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a>,
 				 <a href="https://biomedicalcomputervision.uniandes.edu.co/" target="_blank">P. Arbeláez</a>, and
 				 <a href="https://wwwpeople.ee.ethz.ch/en/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>
 				 <br>
@@ -407,10 +405,10 @@
 			 	Medical Image Computing and Computer-Assisted Intervention <i>(MICCAI)</i>, 2016
 			  <br>
 			  [<a href="javascript:toggleBibtex('Man+16')">BibTex</a>] &nbsp;&nbsp;
-			  [<a href="http://people.ee.ethz.ch/~cvlsegmentation/driu/data/paper/DRIU_MICCAI2016.pdf">pdf</a>] &nbsp;&nbsp;
-			  [<a href="http://people.ee.ethz.ch/~cvlsegmentation/driu/data/paper/DRIU_MICCAI2016_Supp.pdf">Supplemental</a>] &nbsp;&nbsp;
-			  [<a href="http://people.ee.ethz.ch/~cvlsegmentation/driu/downloads.html" target="_blank">Code</a>] &nbsp;&nbsp;
-			  [<a href="http://people.ee.ethz.ch/~cvlsegmentation/driu" target="_blank">Project Page</a>]
+			  [<a href="https://people.ee.ethz.ch/~cvlsegmentation/driu/data/paper/DRIU_MICCAI2016.pdf">pdf</a>] &nbsp;&nbsp;
+			  [<a href="https://people.ee.ethz.ch/~cvlsegmentation/driu/data/paper/DRIU_MICCAI2016_Supp.pdf">Supplemental</a>] &nbsp;&nbsp;
+			  [<a href="https://people.ee.ethz.ch/~cvlsegmentation/driu/downloads.html" target="_blank">Code</a>] &nbsp;&nbsp;
+			  [<a href="https://people.ee.ethz.ch/~cvlsegmentation/driu" target="_blank">Project Page</a>]
 			 </p>
 		   </td>
 		  </table>
@@ -422,7 +420,7 @@
 		   <td>
 			 <p>
 				 <a href="https://www.linkedin.com/in/georgia-chalvatzaki/" target="_blank">G. Chalvatzaki</a>,
-				 <a href="http://www.seas.upenn.edu/~pavlakos/" target="_blank">G. Pavlakos</a>,
+				 <a href="https://www.seas.upenn.edu/~pavlakos/" target="_blank">G. Pavlakos</a>,
 				 K.K. Maninis,
 				 <a href="http://users.ntua.gr/xpapag/" target="_blank">X. Papageorgiou</a>,
 				 <a href="http://cvsp.cs.ntua.gr/vpitsik/" target="_blank">V. Pitsikalis</a>,
@@ -472,10 +470,10 @@
 				<a href="https://sergicaelles.com" target="_blank">S. Caelles</a>,
 				<a href="https://github.com/albertomontesg" target="_blank">A. Montes</a>,
 				K.K. Maninis,
-				<a href="http://people.ee.ethz.ch/~yuhchen/" target="_blank">Y. Chen</a>,
+				<a href="https://people.ee.ethz.ch/~yuhchen/" target="_blank">Y. Chen</a>,
 				<a href="https://www.vision.ee.ethz.ch/en/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>,
 				Federico Perazzi, and
-				<a href="http://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a> <br>
+				<a href="https://jponttuset.github.io/" target="_blank">J. Pont-Tuset</a> <br>
 
 				<b>The 2018 DAVIS Challenge on Video Object Segmentation</b><br>
 				arXiv, 2018<br>
@@ -497,7 +495,7 @@
 		   <td>
 			 <p> <a href="https://imatge.upc.edu/web/people/miriam-bellver">M. Bellver</a>,
 				 K.K. Maninis,
-				 <a href="http://www.jponttuset.cat" target="_blank">J. Pont-Tuset</a>,
+				 <a href="https://www.jponttuset.cat" target="_blank">J. Pont-Tuset</a>,
 				 <a href="https://imatge.upc.edu/web/people/xavier-giro">X. Giró-i-Nieto</a>,
 				 <a href="http://jorditorres.org/">J. Torres</a>, and
 				 <a href="https://wwwpeople.ee.ethz.ch/en/members/get_member.cgi?id=1" target="_blank">L. Van Gool</a>
@@ -528,17 +526,12 @@
 		</p>
 
 		<h1 id="contact">Contact</h1>
-		<table cellpadding="0">
-			<div id="address">
-			 <tr>
-			   <b> E-mail:</b> kevismaninis (it is a gmail)
-			 </tr>
-			 </div>
-		</table>
+		  <div id="address">
+			<b> E-mail:</b> kevismaninis (it is a gmail) <br>
+		  </div>
 
 		<div id="footer">
-					<hr />
-
+		<br><br><br>
 		<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&d=-n0O2ehSVAEaFskX3qf8FwdqzEMdiuAy3JDv7qpGMFk"></script>
 
 		</div>
