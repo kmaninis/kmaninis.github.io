@@ -140,6 +140,9 @@
 	  transform:translate(-50%,-50%);
 	  transition: 1s ease;
 	}
+	div.abstract {
+		text-align: justify;
+	}
 </style>
 
 <script type="text/javascript">
@@ -227,7 +230,7 @@
 				<div class="row t-center" style="line-height: 1.5">
 				<hr class="line-2">
 				<h2 style="margin-bottom:20px">Publication</h2>
-					<a href="https://arxiv.org/pdf/1904.08918" target="_blank">
+					<a href="" target="_blank">
 					<div class="paper-col"><img class="paper-col-im" src="images/paper/paper01.jpg" alt=""/></div>
 					<div class="paper-col"><img class="paper-col-im" src="images/paper/paper02.jpg" alt=""/></div>
 					<div class="paper-col"><img class="paper-col-im" src="images/paper/paper03.jpg" alt=""/></div>
@@ -238,17 +241,14 @@
 					<div class="paper-col"><img class="paper-col-im" src="images/paper/paper08.jpg" alt=""/></div>
 					</a>
 				</div>
-				<div class="row t-center" style="line-height: 1.5; margin-top:15px">
+				<div class="row t-center" style="line-height: 1.5; margin-top:15px; margin-bottom: 40px;">
+					Vid2CAD: CAD Model Alignment using Multi-View Constraints from Videos
+					<br>
 					<a href="https://kmaninis.com" target="_blank">K.K. Maninis*</a>,
-					<a href="https://research.google/people/StefanPopov/" target="_blank">S. Popov*</a>, and
+					<a href="https://research.google/people/StefanPopov/" target="_blank">S. Popov*</a>,
 					<a href="https://www.niessnerlab.org/members/matthias_niessner/profile.html"
-					   target="_blank">M. Nießner</a>
+					   target="_blank">M. Nießner</a>, and
 					<a href="https://sites.google.com/view/vittoferrari" target="_blank">V. Ferrari</a>
-					<br>
-					<b>Vid2CAD: CAD Model Alignment using Multi-View Constraints from Videos</b>,
-					<br>
-					<i>arXiv</i>,
-					2020.
 					<br>
 					<a href="javascript:toggleBibtex('maninis20arxiv')">[BibTeX]</a>
 					<a href="" target="_blank">[arXiv]</a>
@@ -262,6 +262,23 @@
   Year      = {2020}
 }
 </pre>
+				</div>
+
+				<div class="row t-center" style="line-height: 1.5">
+					<h2 style="margin-bottom:5px">Abstract</h2>
+				</div>
+				<div class="row t-center" style="line-height: 1.5; text-align: justify">
+					We address the task of aligning CAD models to a video sequence of a complex scene containing
+					multiple objects. Our method is able to process arbitrary videos and fully automatically recover
+					the 9 DoF pose for each object appearing in it, thus aligning them in a common 3D coordinate
+					frame. The core idea of our method is to integrate neural network predictions from individual
+					frames with a temporally global, multi-view constraint optimization formulation. This
+					integration process resolves the scale and depth ambiguities in the per-frame predictions, and
+					generally improves the estimate of all pose parameters. By leveraging multi-view constraints,
+					our method also resolves occlusions and handles objects that are out of view in individual
+					frames, thus reconstructing all objects into a single globally consistent CAD representation of
+					the scene. In comparison to the state-of-the-art single-frame method Mask2CAD that we build on,
+					we achieve substantial improvements on Scan2CAD (from 11.6% to 30.2% class average accuracy).
 				</div>
 			</article>
 		</div>
